@@ -63,7 +63,6 @@ for title, i in zip(
     i.yaxis.set_visible(False)
     i.xaxis.set_visible(False)
 
-plt.show()
 plt.savefig("figures/timeseries_linear_interpolation.png")
 
 #%% unable to handle missingness without interpolation 
